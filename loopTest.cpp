@@ -3,9 +3,9 @@ using namespace std;
 
 int main(){
     int num;
-    int i=0;
+    int i=0;  
     cin>>num;
-
+    cout<<"enter the number -"<<endl;
     while (i<=num)
     {
         i=i+1;
@@ -13,4 +13,5 @@ int main(){
     
     }
     cout<<"Hello world"<<endl;
+    return 0;
 }
