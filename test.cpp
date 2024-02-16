@@ -7,12 +7,12 @@ int main(){
     cin>>ch;
     if ((ch>='a'&&ch<='z')||(ch>='A'&& ch<='Z'))
     {
-        cout<<"Character"<<ch<<endl;
+        cout<<"Character" <<ch<<endl;
     }else if (ch>='0'&&ch<='9')
     {
-        cout<<"Digit"<<ch<<endl;
+        cout<<"Digit" <<ch<<endl;
     }else{
-        cout<<"Special Symbol"<<ch<<endl;
+        cout<<"Special Symbol "<<ch<<endl;
     }
     return 0;
 
